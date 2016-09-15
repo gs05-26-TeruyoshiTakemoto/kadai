@@ -18,3 +18,5 @@ SELECT * FROM gs_users ORDER BY indate DESC LIMIT 5;
 
 7. （難問題） "age"で「GROUP BY 」使い10,20,30,40歳が各何人知るか 抽出するSQLを作る
 SELECT age, COUNT(*) FROM gs_users WHERE age = '20' OR age='30' OR age='40' GROUP BY age;
+
+SELECT age, COUNT(*) FROM gs_users GROUP BY age;
