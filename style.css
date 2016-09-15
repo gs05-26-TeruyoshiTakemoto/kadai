@@ -1,0 +1,22 @@
+#main{
+    
+} 
+
+.jumbotron {
+    padding: 30px 15px;
+    margin-bottom: 30px;
+    color: inherit;
+    background-color: transparent;
+}
+
+.navbar-brand{
+    border: 1px solid #DDD;
+    -webkit-border-radius: 8px;
+    padding: 10px 0;
+
+}
+
+.inaka{
+    text-decoration: underline;
+    font-size: 20px;    
+};
